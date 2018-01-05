@@ -68,7 +68,10 @@ pickle-email-*.html
 /nbproject/
 
 # RubyMine project files
-.idea
+.idea/*
+!.idea/codeStyles/
+!.idea/runConfigurations/
+!.idea/inspectionProfiles/
 
 # Textmate project files
 /*.tmproj
