@@ -53,7 +53,7 @@ bundle install
 ## RubyMine step by step
 
 Edit: I had a wrong configuration and a local mysql installation which let me think it was working at first.
-** 🔴 This is not working and ruby is being ran locally on my system. See [#1](https://github.com/GabLeRoux/rails-docker-compose-rubymine-example/issues/1)**
+**🔴 This is not working and ruby is being ran locally on my system. See [#1](https://github.com/GabLeRoux/rails-docker-compose-rubymine-example/issues/1)**
 
 Tested on RubyMine 2017.3.2 EAP :+1:.
 
