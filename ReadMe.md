@@ -54,10 +54,20 @@ bundle install
 
 Tested on RubyMine 2017.3.2 EAP :+1:.
 
+1. Open settings -> Ruby SDK and Gems -> Add (+)
+2. Select docker-compose, setup Docker server and select `web` service (from docker-compose file)
+
 ![01-configure-remote-debug-interpreter-docker-compose](doc/01-configure-remote-debug-interpreter-docker-compose.png)
 ![02-ruby-sdk-and-gems](doc/02-ruby-sdk-and-gems.png)
+3. Right click on a test to add as a run configuration
 ![03-right-click-add-test](doc/03-right-click-add-test.png)
+4. Tweak the run configuration by adding environment variables. Hint on macos:
+   ```bash
+   cat .env | pbcopy
+   ```
+   Then hit the clipboard icon to paste all env variables at the same time
 ![04-edit-run-configuration](doc/04-edit-run-configuration.png)
+5. Execute the run configuration in debug mode :v:
 ![05-successful-test-with-breakpoint](doc/05-successful-test-with-breakpoint.png)
 
 ## License
