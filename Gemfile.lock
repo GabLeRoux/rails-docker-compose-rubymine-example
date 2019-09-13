@@ -90,7 +90,7 @@ GEM
     concurrent-ruby (1.1.5)
     crass (1.0.4)
     dante (0.2.0)
-    database_cleaner (1.5.1)
+    database_cleaner (1.7.0)
     debase (0.2.1)
       debase-ruby_core_source
     debase-ruby_core_source (0.10.2)
