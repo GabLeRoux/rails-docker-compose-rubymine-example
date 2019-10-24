@@ -89,7 +89,7 @@ GEM
       execjs
     coffee-script-source (1.10.0)
     concurrent-ruby (1.1.5)
-    crass (1.0.4)
+    crass (1.0.5)
     dante (0.2.0)
     database_cleaner (1.7.0)
     debase (0.2.1)
@@ -144,7 +144,7 @@ GEM
     json (1.8.6)
     launchy (2.4.3)
       addressable (~> 2.3)
-    loofah (2.2.3)
+    loofah (2.3.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
