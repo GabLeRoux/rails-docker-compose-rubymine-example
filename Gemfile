@@ -31,7 +31,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
-  gem 'stripe-ruby-mock', '~> 2.1.1', :require => 'stripe_mock'
+  gem 'stripe-ruby-mock', '~> 2.5.8', :require => 'stripe_mock'
   gem 'ruby-debug-ide'
   gem 'debase'
   # gem 'byebug'
