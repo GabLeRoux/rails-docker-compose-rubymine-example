@@ -68,7 +68,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.6)
+    concurrent-ruby (1.1.8)
     crass (1.0.6)
     dante (0.2.0)
     database_cleaner (1.8.5)
@@ -220,7 +220,7 @@ GEM
     stripe_event (1.9.1)
       activesupport (>= 3.1)
       stripe (>= 1.6, < 4.0)
-    sucker_punch (2.1.2)
+    sucker_punch (3.0.0)
       concurrent-ruby (~> 1.0)
     thor (1.0.1)
     thread_safe (0.3.6)
