@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: sucker_punch
+    versions:
+    - 3.0.0
+  - dependency-name: rspec-rails
+    versions:
+    - 4.0.2
